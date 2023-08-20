@@ -1,0 +1,15 @@
+div button.btnn {
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    // display: flex;
+    justify-content: center;
+    font-size: 1fr;
+}
+div button.btnn:hover {
+    background: whitesmoke;
+    color: black;
+    transition: 0.7s;
+}
