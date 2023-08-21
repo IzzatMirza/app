@@ -7,18 +7,21 @@ export default function Project() {
   return (
 
     <>
-      <div style={{ marginTop: "100px" }} className='container '>
+      <div style={{ marginTop: "100px" }} className='container ' >
         <h1 style={{ fontFamily: "fantasy" }}>Projects</h1>
         <p>__-___-___-____-____-_</p>
       </div>
 
 
-      <div className='container my-5' datadata-aos="zoom-out">
+
+
+
+      <div className='container mt-3' >
 
         <div className='row'>
           <div className='col-12 col-md-6'>
             <h3 style={{ fontFamily: "cursive" }} >Project_1</h3>
-            <p>"Dropidea: Unleash Creativity. Our innovative platform empowers minds to share, explore, and evolve ideas seamlessly. Collaborate effortlessly, from brainstorming to realization, fueling innovation and growth."</p>
+            <p>Arttik is a dynamic online platform where creators showcase their diverse artworks, spanning from paintings and sculptures to digital art and photography, fostering a vibrant community for artistic inspiration and appreciation.</p>
 
             <a href="https://g-project-c1a79.web.app/">
               <button className='btn btn-outline-secondary'>Click here</button>
@@ -26,14 +29,17 @@ export default function Project() {
 
           </div>
 
-          <div className='col-12 col-md-6 my-3'>
+          <div className='col-12 col-md-6 mt-3' data-aos="fade-up-right" data-aos-duration="1500">
             <img className='img1 rounded' src={Img1} alt="Img" />
           </div>
         </div>
       </div>
 
 
-      <div className='container my-5' data-aos="zoom-out">
+
+
+
+      <div className='container mt-3'>
 
         <div className='row'>
           <div className='col-12 col-md-6'>
@@ -46,17 +52,15 @@ export default function Project() {
 
           </div>
 
-          <div className='col-12 col-md-6 my-3'>
-            <img className='img1 rounded' src={Img2} alt="Img" />
+          <div className='col-12 col-md-6 mt-3' data-aos="fade-up-right" data-aos-duration="1500">
+            <img className='img2 rounded' src={Img2} alt="Img" />
           </div>
         </div>
       </div>
 
 
 
-
-      <div className='container my-5' data-aos="zoom-out">
-
+      <div className='container mt-3'>
         <div className='row'>
           <div className='col-12 col-md-6'>
             <h3 style={{ fontFamily: "cursive" }} >Project_3</h3>
@@ -68,8 +72,8 @@ export default function Project() {
 
           </div>
 
-          <div className='col-12 col-md-6 my-3'>
-            <img className='img1 rounded' src={Img3} alt="Img" />
+          <div className='col-12 col-md-6 mt-3 '  data-aos="fade-up-right" data-aos-duration="2000">
+            <img className='img3 rounded' src={Img3} alt="Img" />
           </div>
         </div>
       </div>

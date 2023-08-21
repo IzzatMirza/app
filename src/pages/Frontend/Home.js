@@ -29,7 +29,7 @@ export default function Home() {
             <div className='d-flex justify-content-center mt-5'>
             <Link to="/about" style={{ textDecoration: "none", color: "black" }} element={<About />}>
 
-                <div id='links' className='bg-warning rounded-circle m-3 '  data-aos="fade-up-right" data-aos-duration="1000" style={{ height: "130px", width: "130px", position: "relative", }}>
+                <div id='links' className='bg-warning rounded-circle m-3 '  data-aos="fade-up-right" data-aos-duration="1000" style={{ height: "130px", width: "130px" , position:"relative" }}>
 
                   <h3 className='text-center '>Resume</h3>
 

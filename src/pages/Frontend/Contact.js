@@ -16,7 +16,7 @@ export default function Contact() {
       </div>
 
 
-      <div className='container mt-5' data-aos="zoom-out-down" data-aos-duration="1000">
+      <div className='container mt-5' data-aos="zoom-in" dats-aos-duration="1500">
         <div className='row'>
           <div className='col-12 col-md-6 '>
             <h4>Phone</h4>
