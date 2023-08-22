@@ -1,56 +1,50 @@
-
-
 div img.rounded-circle {
-    filter: brightness(50%);
-    
-    width: 480px ;
-    height: 480px;
-    object-fit: cover;
+  filter: brightness(50%);
 
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
+  width: 480px;
+  height: 480px;
+  object-fit: cover;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 @media only screen and (max-width:500px) {
-    div img.rounded-circle  {
-        width: 300px !important;
-        height: 300px !important;
-    }
+  div img.rounded-circle {
+    width: 300px !important;
+    height: 300px !important;
   }
+}
 
 
-  
+
 @media only screen and (max-width:500px) {
-  #links  {
-      width: 90px !important;
-      height: 90px !important;
-      position: relative  !important;
+  #links {
+    width: 90px !important;
+    height: 90px !important;
+    position: relative !important;
   }
 }
 
 
 
 div h3.text-center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    text-decoration: none;
-    list-style: none    ;
-  }
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
 
 #links:hover {
-    background-color: aliceblue !important;
-    transition: 0.7s;
-    width: 140px !important;
-    height: 140px !important;
+  background-color: aliceblue !important;
+  transition: 0.7s;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
 }
-#links {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
+
 
 div ul li Link.nav-link {
-  font-family:'fantasy';
+  font-family: 'fantasy';
 }
-
-

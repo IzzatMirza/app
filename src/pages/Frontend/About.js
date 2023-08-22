@@ -11,6 +11,7 @@ export default function About() {
       <div style={{ marginTop: "100px" }} className='container '>
         <h1 style={{fontFamily:"fantasy"}}>Resume</h1>
         <p>__-___-___-____-____-_</p>
+    
       </div>
       <div style={{ marginTop: "100px" }} className='container ' data-aos="fade-up-right" data-aos-duration="1700" >
         <div className='row'>
